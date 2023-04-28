@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="../simple/caesar.js"></script>
+</head>
+<body>
+  <div class="tile">
+    <div class="container">
+      <h1 class="logo">Caesar Cipher</h1>
+      <div class="encrypt">
+        <h2>Encrypt a message</h2>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message">
+        <label for="shifter">Shift by:</label>
+        <input type="number" id="shifter" name="shifter">
+        <button id="encrypt-btn" onclick="cipher()">Encrypt</button><br> <br>
+        <input type="text" id="encrypted-message" name="encrypted-message">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
